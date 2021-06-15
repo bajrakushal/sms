@@ -1,0 +1,280 @@
+
+body{
+	margin:0;
+	width:1349px; /*width of your image*/
+   height:800px; /*height of your image*/
+   background-image:url(../images/hsm2.jpg);
+   margin:0; /* If you want no margin */
+   padding-top:10px; /*if your want to padding */
+   background-size:cover;
+   background-repeat:no-repeat;
+}
+.header{
+	background-color:black;
+	color:white;
+	padding: 12px 0px 6px 40px;
+	height:105px;
+	margin-top:-10px;
+	
+}
+img{
+	color:white;
+	float:left;
+	margin-top:0px;
+	margin-right:10px;
+}
+ul li {
+	display:inline-block;
+	padding:0px;
+	float:left;
+	font-size:32px;
+	margin-left:18px;
+	list-style-type:none;	
+}
+ul li a{
+	color:white;
+	text-decoration:none;
+}
+
+.homeblue{
+	background-color:blue;
+	padding:30px 10px 56px 10px;
+}
+.divv{
+	background-color:blue;
+	height:5px;
+}
+.homered:hover{
+	background-color:red;
+	padding:30px 12px 56px 10px;
+}
+
+.home{
+	margin:8% 12% 10% 60%;
+	font-size:75px;
+	color:white;
+	background-color:rgba(0,0,0,0.4);
+	display:inline-block;
+}
+/* Css for Login page*/
+
+.container{
+	width:44%;
+	height:44%;
+	background-color:rgba(255,255,255,0.6);
+	margin:8% 12% 10% 30%;
+	box-shadow:5px 3px 15px 4px;
+	border-radius:20px;
+}
+.loginh2{
+	margin-left:28%;
+	font-size:30px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.loginh4{
+	margin-left:39%;
+}
+.loginh4 a{
+	text-decoration:none;
+	color:black;
+}
+#user{
+	margin-left:10%;
+	width:70%;
+	height:17%;
+	padding-left:17px;
+	font-size:30px; 
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+#pass{
+	margin-left:10%;
+	width:70%;
+	height:17%;
+	padding-left:17px;
+	font-size:30px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif; 
+}
+.loginbutton{
+	width:255px;
+	height:40px;
+	margin-left:26%;
+	margin-bottom:2%;
+	padding-left:17px;
+	font-size:20px; 
+	background-color:Blue;
+	color:white;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	border-radius:25px;
+}
+.loginbutton:hover
+{
+	background:aqua;
+	cursor:pointer;
+}
+
+/* Adminheader*/
+.adminbody
+{
+	margin:0;
+	width:auto; /*width of your image*/
+   height:auto; /*height of your image*/
+   background-image:url(../images/students.jpg);
+   margin:0; /* If you want no margin */
+   padding-top:10px; /*if your want to padding */
+   background-size:cover;
+   background-repeat:no-repeat;
+}
+
+.adminhome:hover {
+  color: red;
+}
+
+/*Add Student button*/
+.addstudent{
+	height:5px;
+	width:255px;
+	margin-left:10%;
+	margin-top:7%;
+	font-size:25px;
+	height:20%;
+	background-color:#01B700;
+	color:black;
+	border-radius:6px;
+}
+.addstudent a{
+	text-decoration:none;
+	color:black;
+}
+.searchpanel{
+	border:3px solid #32e17c;
+	margin-left:25%;
+	margin-top:2%;
+	width:50%;
+	height:20%;
+	font-size:30px;
+	text-align:center;
+}
+.searchbutton
+{
+	font-size:25px;
+	color:black;
+	
+}
+/* add Student */
+.containeraddStudent{
+	width:44%;
+	height:44%;
+	background-color:rgba(255,255,255,0.6);
+	margin:1% 12% 10% 30%;
+	box-shadow:5px 3px 15px 4px;
+	border-radius:20px;
+}
+.studentadd{
+	margin-left:22%;
+	margin-bottom:0.5%;
+	width:50%;
+	height:10%;
+	padding-left:17px;
+	font-size:20px; 
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.radio{
+	margin-left:25%;
+	margin-top:2%;
+	font-size:20px;
+}
+.divselect{
+	margin-left:22%;
+}
+select{
+	padding:5px;
+	float:left;
+	font-size:20px;
+	height:8%;
+	margin-bottom:0.5%
+}
+
+/*result */
+.addresult{
+	height:5px;
+	width:255px;
+	margin-top:2%;
+	font-size:25px;
+	height:20%;
+	background-color:#01B700;
+	color:black;
+	border-radius:6px;
+}
+.addresult a{
+	text-decoration:none;
+	color:black;
+}
+
+/*Add result*/
+.containeraddresult{
+	width:44%;
+	height:44%;
+	background-color:rgba(255,255,255,0.6);
+	margin:1% 8% 10% 30%;
+	box-shadow:5px 3px 15px 4px;
+	border-radius:20px;
+}
+select{
+	height:32px;
+	width:400px;
+	font-size:20px;
+}
+/*Forgot password*/
+.error{
+	font-size:25px;
+	margin-left:150px;
+	margin-bottom:3%;
+}
+
+/*Subject */
+.designtable{
+	border-collapse:collapse;
+	padding-bottom::2%;
+	margin-left:15%;
+	margin-bottom:5%;
+	width:75%;
+	height:50%;
+	color:black;
+	font-size:25px;
+	text-align:left;
+	background-color:#DDDBDB;
+	
+}
+
+/*table*/
+.content-table{
+	border-collapse:collapse;
+	margin-top:1%;
+	margin-left:2.5%;
+	font-size:1.5em;
+	min-width:400px;
+}
+.content-table thead tr{
+	background-color:#009879;
+	color:#FFFFFF;
+	text-align:center;
+	font-weight:bold;
+}
+.content-table th,content-table td{
+	padding: 8px 10px;
+}
+.content-table tbody tr{
+	border-bottom:1px solid #dddddd;
+	background-color:#f3f3f3;
+}
+.content-table a{
+	text-decoration:none;
+	color:black;	
+}
+
+
+
+
+
+
+		
